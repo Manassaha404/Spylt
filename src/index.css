@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('/fonts/ProximaNova-Regular.otf') format('opentype'),
+       url('/fonts/font.woff') format('woff');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #faeade;
+  color: #523122;
+  font-family: "Antonio";
+  overflow-x: hidden;
+  scroll-behavior: smooth;}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-text{
+    font-family: "Antonio";
+    font-weight: 400;
+}
+
+.hero-para, .hero-para2,.nutrition-para,.footer-para{
+    font-family: "ProximaNova";
+}
+.para-line{
+  overflow: hidden;
+  /* border: 2px solid white; */
+}
+
+
+
