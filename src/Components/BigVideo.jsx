@@ -32,11 +32,11 @@ const BigVideo = () => {
             <div style={{
                 clipPath: !isMobile ? "circle(6% at 50% 50%)" : "circle(100% at 50% 50%)",
             }} className="size-full video-box">
-                <video src="public\videos\pin-video.mp4" className="md:size-full h-[100vh] absolute object-cover" loop muted autoPlay></video>
+                <video src="\videos\pin-video.mp4" className="md:size-full h-[100vh] absolute object-cover" loop muted autoPlay></video>
                 <div className="absolute top-[50%]  md:top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:scale-100 scale-200">
-                    <img src="public\images\circle-text.svg" className="size-[15vw] animate-spin [animation-duration:5s]" alt="" />
+                    <img src="\images\circle-text.svg" className="size-[15vw] animate-spin [animation-duration:5s]" alt="" />
                     <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-[8.5vw] flex justify-center items-center bg-[#ffffff1a] backdrop-blur-xl rounded-full">
-                        <img src="public\images\play.svg" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[2vw]" alt="" />
+                        <img src="\images\play.svg" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[2vw]" alt="" />
                     </div>
                 </div>
 

@@ -44,9 +44,9 @@ const FooterSection = () => {
   return (
     <section className='h-fit'>
       <div className='footer-container min-h-[50vh] relative bg-[#222123] pt-[20vh] md:pt-[20vw]'>
-        <img src="public\images\footer-dip.png" className='absolute top-0' alt="" />
+        <img src="\images\footer-dip.png" className='absolute top-0' alt="" />
         <div className='footer-img-container w-full h-fit relative'>
-          <img src="public\images\footer-img.svg" className='w-full scale-200 md:scale-100' alt="" />
+          <img src="\images\footer-img.svg" className='w-full scale-200 md:scale-100' alt="" />
           <div className='footer-title absolute top-0 w-full h-fit md:h-[30vw] flex flex-col justify-start md:p-15 '>
             <div className="mx-auto md:mx-0   overflow-hidden w-full md:w-[55vw] h-fit md:h-[10vw]  px-5 md:p-5">
               <h1 className='footer-title-text text-[13vw] md:text-[8vw] leading-[110%] md:leading-[8vw] uppercase font-bold text-[#FAEADE] m-auto tracking-[-.35vw]'>right around</h1>

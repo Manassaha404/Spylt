@@ -71,8 +71,8 @@ const Nutrition = () => {
                     {<NutritionDetails />}
                 </div>
                 <div className="nutition-imgs h-full w-full flex flex-col justify-between">
-                    <img src="public\images\slider-dip.png" className='w-full h-[15vw]' alt="" />
-                    <img src="public\images\big-img.png" className='w-full h-[35vh] md:size-fit  scale-[2] md:scale-[1]' alt="" />
+                    <img src="\images\slider-dip.png" className='w-full h-[15vw]' alt="" />
+                    <img src="\images\big-img.png" className='w-full h-[35vh] md:size-fit  scale-[2] md:scale-[1]' alt="" />
                 </div>
             </div>
         </section>

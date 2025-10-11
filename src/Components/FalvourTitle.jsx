@@ -12,7 +12,7 @@ const FalvourTitle = () => {
         const FalvourText2 = SplitText.create(".falvour-title-text2", {
             type: "chars",
         });
-        const tl = gsap.timeline({ paused: true, delay: 30 });
+        const tl = gsap.timeline({ paused: true, delay: 70 });
         tl.from(FalvourText1.chars, {
             yPercent: 200,
             ease: "power1.inOut",

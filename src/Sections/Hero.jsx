@@ -44,12 +44,12 @@ const Hero = () => {
     return (
         <section className="bg-[#222123]">
             <div className='hero-container  bg-[#F9E6D6] relative w-full h-screen flex  flex-col justify-start pt-[22vw]  md:pt-0 md:justify-center items-center'>
-                <img src="public\images\hero-bg.png" className='absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-200' alt="" />
+                <img src="\images\hero-bg.png" className='absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-200' alt="" />
                 {isMoblie ? (
-                    <img className="absolute bottom-20" src="public\images\hero-img.png"/>
+                    <img className="absolute bottom-20" src="\images\hero-img.png"/>
                     
                     ) : (
-                    <video className="absolute w-[100%] h-screen object-cover" src="public\videos\hero-bg.mp4" autoPlay playsInline muted/>
+                    <video className="absolute w-[100%] h-screen object-cover" src="\videos\hero-bg.mp4" autoPlay playsInline muted/>
                     )}
                 <div className="hero-content z-10 opacity-0">
                     <div className="hero-text mx-auto  overflow-hidden w-fit md:w-[55vw] h-[14vw] md:h-[10vw]  px-5 md:p-5">
