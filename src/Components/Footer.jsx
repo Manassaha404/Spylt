@@ -17,7 +17,7 @@ const Footer = () => {
         tl.from(text.chars, {
             yPercent: 200,
             ease: "power1.inOut",
-            stagger: 0.03,
+            stagger: 0.02,
         })
         ScrollTrigger.create({
             trigger: ".footer",

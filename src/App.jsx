@@ -19,9 +19,9 @@ function App() {
     ScrollSmoother.create({
       smooth: 2,
       effects: true,
-      smoothTouch: true,
+      // smoothTouch: true,
       speed: 1.2,
-      ignoreMobileResize: true,
+      // ignoreMobileResize: true,
     });
   })
 
