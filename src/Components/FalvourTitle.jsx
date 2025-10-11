@@ -37,7 +37,7 @@ const FalvourTitle = () => {
             "(min-width: 1025px)": function () {
                 ScrollTrigger.create({
                     trigger: ".falvuor-title-container",
-                    start: "top bottom",
+                    start: "20% bottom",
                     end: "75% bottom",
                     onEnter: () => tl.restart(),
                     // markers: true,

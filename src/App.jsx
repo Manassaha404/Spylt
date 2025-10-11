@@ -10,19 +10,24 @@ import Nutrition from './Sections/Nutrition';
 import Benefits from './Sections/Benefits';
 import PeopleTalk from './Sections/PeopleTalk';
 import FooterSection from './Sections/FooterSection';
+import { useMediaQuery } from 'react-responsive';
 gsap.registerPlugin(ScrollTrigger, SplitText, ScrollSmoother);
 
 
 
 function App() {
+  const isMoblie = useMediaQuery({maxWidth : 768});
   useGSAP(() => {
-    ScrollSmoother.create({
+    if(!isMoblie){
+      ScrollSmoother.create({
       smooth: 2,
       effects: true,
       // smoothTouch: true,
-      speed: 1.2,
+      speed: 1.3,
       // ignoreMobileResize: true,
     });
+    }
+    
   })
 
   return (
