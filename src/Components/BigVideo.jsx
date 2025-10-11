@@ -14,7 +14,9 @@ const BigVideo = () => {
                 end: "250% top",
                 scrub: 1.5,
                 // markers: true,
+                pinType:"transform",
                 pin: true,
+                anticipatePin:1,
             }
         });
         if (!isMobile) {
