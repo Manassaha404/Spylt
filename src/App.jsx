@@ -20,11 +20,11 @@ function App() {
   useGSAP(() => {
     if(!isMoblie){
       ScrollSmoother.create({
-      smooth: 2,
+      smooth: 3,
       effects: true,
-      // smoothTouch: true,
+      smoothTouch: true,
       speed: 1.3,
-      // ignoreMobileResize: true,
+      ignoreMobileResize: true,
     });
     }
     
