@@ -1,5 +1,3 @@
-Here is a basic README file for your project:
-
 <xaiArtifact artifact_id="261c5836-8da9-4767-9560-b4f944981e64" artifact_version_id="f339fb4d-8d16-4424-b410-116bdf2f27dd" title="README.md" contentType="text/markdown">
 
 # SpyLt Website
@@ -24,11 +22,11 @@ Welcome to the SpyLt Website project! This is an award-winning website built usi
 ## Installation
 1. Clone the repository:
    ```bash:disable-run
-   git clone https://github.com/yourusername/spylt-website.git
+   git clone https://github.com/Manassaha404/Spylt.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd spylt-website
+   cd spylt
    ```
 3. Install dependencies:
    ```bash
